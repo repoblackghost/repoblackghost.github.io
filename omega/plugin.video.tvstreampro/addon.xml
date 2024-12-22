@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tvstreampro" name="[COLOR magenta]TVSTREAMPRO[/COLOR][COLOR green][++][/COLOR]" version="1.2" provider-name="[COLOR orange]@BLACKSHEEP_B[/COLOR]">
+        <requires>
+        <import addon="script.module.simplejson"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+		<import addon="script.module.beautifulsoup4"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.inputstreamhelper"/>
+		<import addon="inputstream.ffmpegdirect"version="21.3.5"/>
+    </requires>
+  <extension point="xbmc.python.pluginsource"
+      library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer>[B][COLOR orange]OBRIGADO POR USAR NOSSO ADD-ONS[/B][/COLOR] [B][COLOR red]sz[/B][/COLOR] [B][COLOR white]AGRADECERMOS A SUA ESCOLHA[/B][/COLOR] [B][COLOR white]EQUIPE[/B][/COLOR] [B][COLOR magenta]TVSTREAMPRO[/B][/COLOR][B][COLOR green][++][/B][/COLOR] [COLOR gold]:D[/COLOR]</disclaimer>
+        <description>[B][COLOR magenta]TVSTREAMPRO[/B][/COLOR][B][COLOR green][++][/B][/COLOR] [B][COLOR cyan]é um addon criado para oferecer uma experiência completa de entretenimento, com acesso a conteúdos exclusivos. A reprodução ou distribuição sem autorização prévia é estritamente proibida. Aproveite qualidade, praticidade e inovação no seu entretenimento.[/B][/COLOR]
+</description>
+<platform>all</platform>
+		<assets>
+       <icon>icon.png</icon>
+       <fanart>fanart.jpg</fanart>
+       <screenshot>resources/screenshots/1.jpg</screenshot>
+       <screenshot>resources/screenshots/2.jpg</screenshot>
+       <screenshot>resources/screenshots/3.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>

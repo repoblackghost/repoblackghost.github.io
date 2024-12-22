@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.repoblackghost" name="[B][COLOR red]REPO[/COLOR][/B][B][COLOR orange]BLACKGHOST[/COLOR][/B]" version="2.0" provider-name="[B][COLOR lime]@BLACK[/COLOR][/B][B][COLOR yellow]GHOST_B[/COLOR][/B]">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLOR red]REPO BLACKGHOST [COLOR cyan]REPOSITORIO[/COLOR]">
+    <dir>
+    <info compressed="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/addons.xml</info>
+    <checksum>https://raw.github.com/repoblackghost/repoblackghost.github.io/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master</datadir>
+    <hashes>false</hashes>
+</dir>
+  <dir minversion="19.9.9">
+      <info compressed="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/omega/addons.xml</info>
+      <checksum>https://raw.github.com/repoblackghost/repoblackghost.github.io/master/omega/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/omega</datadir>
+      <hashes>false</hashes>
+  </dir>
+<dir minversion="19.9.9">
+      <info compressed="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/nexus/addons.xml</info>
+      <checksum>https://raw.github.com/repoblackghost/repoblackghost.github.io/master/nexus/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/nexus</datadir>
+      <hashes>false</hashes>
+  </dir>
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/repoblackghost/repoblackghost.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/repoblackghost/repoblackghost.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[B][COLOR green]REPOSITORIO REPOBLACKGHOST[/B][/COLOR]</summary>
+    <description>[B][COLOR cyan]ESTE É O REPOSITÓRIO OFICIAL DO [B][COLOR red]REPO[/B][/COLOR][B][COLOR orange]BLACKGHOST[/B][/COLOR], [B]DESENVOLVIDO PARA OFERECER CONTEÚDOS EXCLUSIVOS COM QUALIDADE E PRATICIDADE. A DISTRIBUIÇÃO DESTE REPOSITÓRIO SEM AUTORIZAÇÃO PRÉVIA É ESTRITAMENTE PROIBIDA. APROVEITE UMA EXPERIÊNCIA PERSONALIZADA E OTIMIZADA PARA O SEU ENTRETENIMENTO.[/B][/COLOR]
+</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+</addons>
